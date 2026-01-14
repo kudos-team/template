@@ -13,7 +13,7 @@ fn bl_main(boot_info: &'static BootInfo) -> ! {
     main()
 }
 #[cfg(not(feature = "bootloader"))]
-#[no_mangle]
+#[unsafe(no_mangle)]
 pub extern "C" fn _start() -> ! {
     main()
 }
