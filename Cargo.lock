@@ -30,9 +30,9 @@ checksum = "812e12b5285cc515a9c72a5c1d3b6d46a19dac5acfef5265968c166106e31dd3"
 
 [[package]]
 name = "bootloader"
-version = "0.9.33"
+version = "0.9.34"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "7bdfddac270bbdd45903296bc1caf29a7fdce6b326aaf0bbab7f04c5f98b7447"
+checksum = "13f6a8a495d2f93fe3d6eb3a224f9aa749a63cfd746ed03eb5ddcbd00ade7d8f"
 
 [[package]]
 name = "conquer-once"
@@ -91,7 +91,7 @@ dependencies = [
 [[package]]
 name = "kudos"
 version = "0.0.0"
-source = "git+https://github.com/kudos-team/kernel.git?branch=main#2ad866374477e260b30b8fd42aed8969add668a9"
+source = "git+https://github.com/kudos-team/kernel.git?branch=main#0859f0b19b80b3dad8f4676a558330243a07e84b"
 dependencies = [
  "bootloader",
  "conquer-once",
@@ -117,9 +117,9 @@ dependencies = [
 
 [[package]]
 name = "pc-keyboard"
-version = "0.7.0"
+version = "0.8.0"
 source = "registry+https://github.com/rust-lang/crates.io-index"
-checksum = "ed089a1fbffe3337a1a345501c981f1eb1e47e69de5a40e852433e12953c3174"
+checksum = "f0ca629cbb3f0d5b699c338f0129ff78c9bfd7ea8b1258ad529bff490dc8ed5a"
 
 [[package]]
 name = "pic8259"

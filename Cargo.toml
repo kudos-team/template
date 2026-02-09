@@ -2,7 +2,7 @@
 name = "Template"
 version = "0.0.0"
 edition = "2024"
-authors = ["Tsunami014 <tsunami014@duck.com>", "chishxd", "PixelSaver"]
+authors = []
 
 [features]
 bootloader = []
